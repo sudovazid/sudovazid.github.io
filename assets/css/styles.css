@@ -84,6 +84,16 @@ img{
   margin-bottom: var(--mb-4);
   text-align: center;
 }
+
+.section-more-blogs{
+  position: relative;
+  font-size: var(--h3-font-size);
+  color: var(--second-color);
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+
 .section-title::after{
   position: absolute;
   content: "";
@@ -305,6 +315,10 @@ img{
 }
 .skills__terraform{
   width: 85%;
+}
+.skills__helm{
+    width: 65%;
+
 }
 .skills__img{
   border-radius: .5rem;
